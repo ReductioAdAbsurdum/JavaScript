@@ -6,8 +6,7 @@ function generateCat()
 {
     let image = document.createElement("img");
     image.setAttribute("src",imgSource);
-    image.setAttribute("height","80px");
+    image.setAttribute("height","60px");
 
     catDiv.appendChild(image);
-    catDiv.chil
 }

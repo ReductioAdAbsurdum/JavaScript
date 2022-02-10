@@ -1,0 +1,35 @@
+.flex-box-rps img:hover
+{
+    box-shadow: 0px 10px 10px rgba(37, 50, 233, 1);
+}
+
+.container-3
+{   
+    border: 5px solid rgb(11, 190, 65);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.container-3 button
+{
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+
+.flex-box-rps
+{
+    display: flex;
+    padding: 10px;
+    border-top:3px solid rgb(11, 190, 65);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-box-container-3 img 
+{
+    box-shadow: 0px 10px 20px rgb(231, 250, 239) ;
+    margin: 5px;
+
+}
