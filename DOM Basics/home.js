@@ -1,4 +1,4 @@
-// BASIC STUFF
+//-------------------- BASIC STUFF----------------------
 
 // console.log("console msg");
 // alert("popup alert msg");
@@ -21,7 +21,7 @@
 // console.log(x);
 
 
-// FUNCTIONS IN JAVASCRIPT
+//------------------- FUNCTIONS ----------------
 
 // fun();
 // function fun()
@@ -59,6 +59,7 @@
 //     }
 // }
 
+// --------------LOOPS--------------------------
 
 // WHILE LOOP
 
@@ -118,3 +119,102 @@ for (let i = 0; i < textChars.length; i++)
 */
 
 //--------------------ARRAYS------------------------
+
+// let array = ["zero","one","two"];
+// let arrayConstructor  = new Array("0","1","2");
+// let emptyArray = [];
+// let emptyArrayConstructor = new Array();
+
+// array.forEach(e => {
+//     console.log(e);
+// });
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     console.log(element);
+// }
+
+// console.log(array.toString());
+// console.log(array.join("--"));
+
+// let unionArray = array.concat(arrayConstructor);
+// console.log(unionArray);
+// console.log(unionArray.sort());
+
+// let numbers = [1,50,-9,1,20,6];
+// console.log(numbers.sort((a, b) => a-b)); // sorting with lambda
+
+// console.log(emptyArray);
+
+//--------------------OBJECTS-----------------------
+
+// let student = 
+// {
+//     firstName: "Sergio",
+//     lastName: "Stankovik",
+//     age:25,
+//     height:170,
+
+//     /**
+//      * @returns string that contains student info
+//      */
+//     studentInfo: function()
+//     {
+//         return this.firstName + "\n" + this.lastName + "\n" + this.age + "\n" + this.height;
+//     }
+// };
+
+// console.log(student.firstName);
+// console.log(student.age);
+// console.log(student.studentInfo());
+
+// -----------------CONDITIONALS------------------
+
+// if(true)
+// {
+    
+// }
+// else
+// {
+
+// }
+
+// let x = 11;
+// switch (x) 
+// {
+//     case 10:
+//         console.log("its 10");
+//         break;
+
+//     default:
+//         console.log("its not 10");
+//         break;
+// }
+
+
+
+// -------------------JSON-----------
+
+// let studentsJSON = `[
+//     {
+//         "name": "Sergio",
+//         "age": 25,
+//         "height":170
+//     },
+//     {
+//         "name": "Mirivoj",
+//         "age": 26,
+//         "height":180
+//     }
+// ]`;
+
+// let students = JSON.parse(studentsJSON);
+
+// students.forEach(e => {
+//     console.log(e);
+// });
+
+
+
+
+

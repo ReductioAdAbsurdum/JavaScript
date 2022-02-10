@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "static/css/bootstrap.css">
+    <link rel="stylesheet" href= "static/css/c1-style.css">
+    <link rel="stylesheet" href= "static/css/c2-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Your age in Weeks!</h2>
+
+        <div class="flex-box-container-1">
+
+            <div>
+                <button class="btn btn-primary" onclick="ageInWeeks()">
+                    Click me
+                </button>
+            </div>
+
+            <div>
+                <button class="btn btn-danger" onclick="reset()">
+                    reset
+                </button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id = "flex-box-resoult">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-2">
+        <h2>Evil cat generator</h2>
+
+        <button class="btn btn-success" id="cat-generator" onclick="generateCat()">
+            Generate Cat
+        </button>
+
+        <div class="flex-box-container-2" id ="cat-location">
+
+        </div>
+    </div>
+
+    <script src ="static/js/c1-script.js"></script>
+    <script src="static/js/c2-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container-2
+{   
+    border: 5px solid rgb(172, 100, 240);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+.container-2 button
+{
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+
+.flex-box-container-2
+{
+    display: flex;
+    padding: 10px;
+    border-top:3px solid rgb(172, 100, 240);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-box-container-2 img 
+{
+    box-shadow: 0px 10px 20px rgb(231, 250, 239) ;
+    margin: 5px;
+
+}
